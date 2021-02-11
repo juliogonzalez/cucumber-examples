@@ -12,5 +12,5 @@ bundle exec cucumber
 
 Run tests and write results to a HTML file:
 ```
-bundler exec cucumber -f pretty .f html -o results.html
+bundler exec cucumber -f pretty -f html -o results.html
 ```
